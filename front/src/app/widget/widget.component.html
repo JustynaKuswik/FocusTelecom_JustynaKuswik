@@ -4,8 +4,9 @@
 <label class="form-label clearfix" for="form-number">
   Wprowadź numer
 </label>
+<br />
 <input [(ngModel)]="number" [ngClass]="{ error: !isValidNumber() }" class="form-number clearfix" id="form-number"
-  (keyup)="isValidNumber()" />
+  (keyup)="isValidNumber()" (keyup.enter)="call()" />
 <div class="call-button" (click)="call()">
   Zadzwoń teraz
 </div>

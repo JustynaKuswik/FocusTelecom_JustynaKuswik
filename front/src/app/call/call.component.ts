@@ -14,8 +14,11 @@ export class CallComponent implements OnInit {
   constructor(private router: Router, private callService: CallService) { }
   ngOnInit() {
     this.interval = setInterval(() => {
+
       this.callService.checkStatus();
+
       if (this.callService.isFinished()) {
+
         this.router.navigate(['/finished']);
         clearInterval(this.interval);
       }

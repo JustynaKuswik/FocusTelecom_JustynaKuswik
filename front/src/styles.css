@@ -7,7 +7,7 @@
   bottom: 0;
   left: 0;
   margin: auto;
-  background: rgb(255, 204, 0);
+  background: rgb(173, 255, 106);
   border-radius: 20px;
   box-sizing: border-box;
   padding: 20px;
@@ -64,6 +64,7 @@
   font-size: 28px;
   letter-spacing: 2px;
   text-align: center;
+  border-radius: 20px;
 }
 
 .call-button {

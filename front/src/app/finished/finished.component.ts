@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-finished',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FinishedComponent implements OnInit {
 
-  constructor() { }
+  interval: any;
 
+  constructor(private router: Router) { }
   ngOnInit() {
-  }
 
+    this.interval = setInterval(() => {
+        this.router.navigate(['/']);
+        clearInterval(this.interval);
+    }, 5000);
+  }
 }
