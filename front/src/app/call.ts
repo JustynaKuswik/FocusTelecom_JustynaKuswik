@@ -1,4 +1,4 @@
 export interface Call {
-  id: number
-  status: string
+  id: number;
+  status: string;
 }

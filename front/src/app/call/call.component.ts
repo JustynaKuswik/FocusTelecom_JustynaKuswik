@@ -11,16 +11,16 @@ import { Router, ActivatedRoute } from '@angular/router';
 export class CallComponent implements OnInit {
 
   interval: any;
-constructor(private router: Router, private callService: CallService) {}
- ngOnInit() {
- this.interval = setInterval(() => {
- this.callService.checkStatus();
- if(this.callService.isFinished()){
- this.router.navigate(['/finished']);
- clearInterval(this.interval);
- }
- }, 100);
- }
+  constructor(private router: Router, private callService: CallService) { }
+  ngOnInit() {
+    this.interval = setInterval(() => {
+      this.callService.checkStatus();
+      if (this.callService.isFinished()) {
+        this.router.navigate(['/finished']);
+        clearInterval(this.interval);
+      }
+    }, 100);
+  }
 
 
 }
