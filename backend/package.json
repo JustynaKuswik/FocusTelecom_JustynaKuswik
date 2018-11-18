@@ -1,0 +1,13 @@
+{
+  "name": "kurs-webapps-backend",
+  "version": "1.0.0",
+  "description": "kurs webapps backend",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dialer": "https://bitbucket.org/pdombrowski/dialer.git",
+    "express": "^4.16.3"
+  }
+}
