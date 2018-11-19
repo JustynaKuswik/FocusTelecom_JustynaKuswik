@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Havanaa';
+  src: url('./fonts/Havana-Regular.woff') format('woff');
+}
+
 body {
   background-image: url(https://image.freepik.com/free-vector/seamless-pattern-background-cute-cat-on-brown-pastel_45130-407.jpg);
 }
@@ -16,7 +21,8 @@ body {
   box-sizing: border-box;
   padding: 20px;
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Havanaa';
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
 }
 
 .clearfix:after {
@@ -40,7 +46,6 @@ body {
 
 .text {
   font-size: 40px;
-  font-weight: bold;
   margin-top: 30px;
 }
 
@@ -50,14 +55,13 @@ body {
 }
 
 .header {
+  font-family: 'Havanaa';
   margin-top: 50px;
-  font-size: 38px;
-  font-weight: 600;
+  font-size: 45px;
 }
 
 .form-label {
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 38px;
 }
 
 .form-number {
@@ -65,7 +69,8 @@ body {
   height: 55px;
   padding: 20px;
   box-sizing: border-box;
-  font-size: 28px;
+  font-size: 38px;
+  font-family: 'Havanaa';
   letter-spacing: 2px;
   text-align: center;
   border-radius: 20px;
@@ -75,8 +80,7 @@ body {
   width: 300px;
   height: 75px;
   vertical-align: middle;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 27px;
   line-height: 75px;
   background: #ac2770;
   cursor: pointer;
