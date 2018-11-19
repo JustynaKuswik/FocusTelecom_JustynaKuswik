@@ -1,3 +1,7 @@
+body {
+  background-image: url(https://image.freepik.com/free-vector/seamless-pattern-background-cute-cat-on-brown-pastel_45130-407.jpg);
+}
+
 .window {
   width: 800px;
   height: 500px;
@@ -7,7 +11,7 @@
   bottom: 0;
   left: 0;
   margin: auto;
-  background: rgb(173, 255, 106);
+  background: #FCF0E4;
   border-radius: 20px;
   box-sizing: border-box;
   padding: 20px;
@@ -74,7 +78,7 @@
   font-size: 22px;
   font-weight: 600;
   line-height: 75px;
-  background: #008000;
+  background: #ac2770;
   cursor: pointer;
   color: #fff;
   border-radius: 20px;
@@ -82,10 +86,10 @@
 }
 
 .call-button:hover {
-  filter: brightness(80%);
+  filter: brightness(130%);
 }
 
 .error {
-  border: 1px solid #FF0000;
-  background: rgb(255, 170, 170)
+  border: 1px solid #ac2770;
+  background: #ac27704d;
 }
